@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.the_beekeeper{
+    position: relative;
+    width: 540px;
+    height: 540px;
+    background-image: url('assets/image/beekeeper_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+.description{
+    padding: 10px 15px 0px 15px;
+    margin-left: 185px;
+    width: 60%;
+    height: 530px;
+    background-color: rgb(46, 48, 48);
+}
+.title{
+    position: relative;
+}
+.movieName{
+    color: gold;
+    text-align: center;
+}
+.year{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 55px;
+}
+.ratings{
+    position: absolute;
+    margin-left: 88%;
+    top: 0px;
+    width: 25px;
+    height:25px;
+    text-align: center;
+    color: white;
+    background-color: Red;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.genre_list{
+    background-color: aliceblue;
+    position: relative;
+
+}
+.action{
+    margin: 10px 10px 5px 5px;
+    position:absolute;
+    background: red;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.crime{
+   margin: 10px 10px 5px 75px;
+    position:absolute;
+    background: red;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.drama{
+    margin: 10px 10px 5px 145px;
+    position:absolute;
+    background: red;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.rating{
+   margin-top: 50px;
+   margin-bottom:10px;
+}
+.summary_title{
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+.summary_title:hover{
+    color: red;
+    text-shadow: maroon;
+}
+.summary_paragraph{
+    font-size: 15px;
+    text-align: justify;
+    background-color: #ffffffd7;
+    padding: 8px;
+}
+.summary_paragraph span{
+    color: red;
+    font-style: italic;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cast_title{
+    margin: 5px;
+    color: white;
+}
+.cast_new{
+    list-style: none;
+    
+}
+.cast_crew{
+   display: inline-block;
+   width: 70px;
+   text-align: center;
+   align-items: center;
+   color: aliceblue;
+}
+.cast_crew img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.movie_actions{
+    margin-top: 10px;
+    width:100%;
+}
+.watch_trailer{
+    width: 100px;
+    background-color: red;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 15px;
+    font-style: italic;
+}
+.share_icons{
+    position: absolute;
+    vertical-align: top;
+    margin-left: 160px;
+    margin-top: -30px;
+}
+.icon-list{
+        list-style: none;
+}
+.icons{
+    width: 25px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px; 
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 3px;
+    text-align:center;
+}
+.icons img{
+    height: 20px;
+}
